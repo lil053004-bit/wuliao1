@@ -1,13 +1,11 @@
+import ShuseishaStockLogo from './ShuseishaStockLogo';
+
 export default function NewHeader() {
   return (
     <header className="w-full py-6 px-4 md:px-8 mt-4 md:mt-6">
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         <div className="flex-shrink-0">
-          <img
-            src="/images/logo.png"
-            alt="Logo"
-            className="h-16 md:h-20 w-auto"
-          />
+          <ShuseishaStockLogo className="h-16 md:h-20 w-auto" />
         </div>
 
         <div className="flex flex-col items-end">

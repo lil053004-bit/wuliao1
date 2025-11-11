@@ -261,7 +261,7 @@ export default function Footer() {
                 </li>
                 <li className="flex items-center gap-1 text-text-dark">
                   <Phone className="w-3 h-3" />
-                  <span>+81 3-5555-1272</span>
+                  <span>03-5211-2632</span>
                 </li>
                 <li className="text-text-gray text-xs">
                   受付時間: 平日 9:00-18:00
@@ -275,7 +275,7 @@ export default function Footer() {
                 サービス情報
               </h4>
               <ul className="space-y-2 text-xs sm:text-sm text-text-gray">
-                <li>株式会社AKYI</li>
+                <li>株式会社集英社インターナショナル</li>
                 <li>AI株式診断サービス</li>
                 <li>リアルタイム株価情報</li>
                 <li>テクニカル分析</li>
@@ -328,16 +328,19 @@ export default function Footer() {
 
           <div className="border-t border-primary-red/20 pt-4 text-center">
             <p className="text-xs sm:text-sm text-text-dark mb-2 font-medium">
-              &copy; {currentYear} 株式会社AKYI (Kabushikigaisha AKYI). All rights reserved.
+              &copy; {currentYear} 株式会社集英社インターナショナル (Shueisha International Co., Ltd.). All rights reserved.
             </p>
             <p className="text-xs text-text-gray mb-2">
-              100-0064 東京都千代田区大手町5-7-1
+              岩瀬朗 (Akira Iwase)
             </p>
             <p className="text-xs text-text-gray mb-2">
-              5-7-1 Otemachi, Chiyoda-ku, Tokyo
+              101-0064 東京都千代田区神田猿楽町1-5-18 千代田ビル3F
+            </p>
+            <p className="text-xs text-text-gray mb-2">
+              1-5-18 Kanda Sarugakucho, Chiyoda-ku, Tokyo, Chiyoda Building 3F
             </p>
             <p className="text-xs text-text-gray mb-3">
-              電話: +81 3-5555-1272 | Email: contact@financidsdgroup.jp
+              電話: 03-5211-2632 | Email: support@shueisha-stock.jp
             </p>
             <p className="text-[10px] sm:text-xs text-text-light leading-relaxed max-w-3xl mx-auto">
               【重要】当サイトで提供される情報は教育・情報提供のみを目的としており、特定の金融商品の売買や投資勧誘を行うものではありません。

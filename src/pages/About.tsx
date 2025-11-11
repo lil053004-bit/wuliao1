@@ -160,19 +160,23 @@ export default function About() {
                 <dl className="space-y-3">
                   <div className="flex flex-col sm:flex-row sm:items-start">
                     <dt className="font-semibold text-gray-900 w-32 flex-shrink-0">会社名</dt>
-                    <dd className="text-gray-700">株式会社AKYI<br />Kabushikigaisha AKYI</dd>
+                    <dd className="text-gray-700">株式会社集英社インターナショナル<br />Shueisha International Co., Ltd.</dd>
+                  </div>
+                  <div className="flex flex-col sm:flex-row sm:items-start">
+                    <dt className="font-semibold text-gray-900 w-32 flex-shrink-0">代表者</dt>
+                    <dd className="text-gray-700">岩瀬朗 (Akira Iwase)</dd>
                   </div>
                   <div className="flex flex-col sm:flex-row sm:items-start">
                     <dt className="font-semibold text-gray-900 w-32 flex-shrink-0">所在地</dt>
-                    <dd className="text-gray-700">〒100-0064<br />東京都千代田区大手町5-7-1<br />5-7-1 Otemachi, Chiyoda-ku, Tokyo</dd>
+                    <dd className="text-gray-700">〒101-0064<br />東京都千代田区神田猿楽町1-5-18 千代田ビル3F<br />1-5-18 Kanda Sarugakucho, Chiyoda-ku, Tokyo, Chiyoda Building 3F</dd>
                   </div>
                   <div className="flex flex-col sm:flex-row sm:items-start">
                     <dt className="font-semibold text-gray-900 w-32 flex-shrink-0">電話番号</dt>
-                    <dd className="text-gray-700">+81 3-5555-1272</dd>
+                    <dd className="text-gray-700">03-5211-2632</dd>
                   </div>
                   <div className="flex flex-col sm:flex-row sm:items-start">
                     <dt className="font-semibold text-gray-900 w-32 flex-shrink-0">メールアドレス</dt>
-                    <dd className="text-gray-700">contact@financidsdgroup.jp</dd>
+                    <dd className="text-gray-700">support@shueisha-stock.jp</dd>
                   </div>
                   <div className="flex flex-col sm:flex-row sm:items-start">
                     <dt className="font-semibold text-gray-900 w-32 flex-shrink-0">事業内容</dt>
