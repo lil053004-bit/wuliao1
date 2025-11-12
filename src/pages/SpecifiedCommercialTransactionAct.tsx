@@ -35,25 +35,25 @@ export default function SpecifiedCommercialTransactionAct() {
                   <h2 className="text-xl font-bold text-gray-900 mb-4">販売業者情報</h2>
                   <dl className="space-y-3">
                     <div className="grid sm:grid-cols-3 gap-2">
-                      <dt className="font-semibold text-gray-900">組織名</dt>
-                      <dd className="sm:col-span-2 text-gray-700">合同会社リコッテ</dd>
+                      <dt className="font-semibold text-gray-900">会社名</dt>
+                      <dd className="sm:col-span-2 text-gray-700">株式会社メッセ</dd>
                     </div>
                     <div className="grid sm:grid-cols-3 gap-2">
-                      <dt className="font-semibold text-gray-900">組織名（英語）</dt>
-                      <dd className="sm:col-span-2 text-gray-700">Ricotte LLC</dd>
+                      <dt className="font-semibold text-gray-900">会社名（英語）</dt>
+                      <dd className="sm:col-span-2 text-gray-700">Messe Co., Ltd.</dd>
                     </div>
                     <div className="grid sm:grid-cols-3 gap-2">
-                      <dt className="font-semibold text-gray-900">担当者名</dt>
-                      <dd className="sm:col-span-2 text-gray-700">田口哲夫 (Tetsuo Taguchi)</dd>
+                      <dt className="font-semibold text-gray-900">代表者</dt>
+                      <dd className="sm:col-span-2 text-gray-700">株式会社メッセ</dd>
                     </div>
                     <div className="grid sm:grid-cols-3 gap-2">
                       <dt className="font-semibold text-gray-900">郵便番号</dt>
-                      <dd className="sm:col-span-2 text-gray-700">536-8501</dd>
+                      <dd className="sm:col-span-2 text-gray-700">104-0031</dd>
                     </div>
                     <div className="grid sm:grid-cols-3 gap-2">
                       <dt className="font-semibold text-gray-900">住所</dt>
                       <dd className="sm:col-span-2 text-gray-700">
-                        大阪府大阪市城东区野江一丁目13番4号
+                        中央区京橋3丁目9-2 宝国ビル3F
                       </dd>
                     </div>
                   </dl>
@@ -71,11 +71,11 @@ export default function SpecifiedCommercialTransactionAct() {
                   <dl className="space-y-3">
                     <div className="grid sm:grid-cols-3 gap-2">
                       <dt className="font-semibold text-gray-900">電話番号</dt>
-                      <dd className="sm:col-span-2 text-gray-700">080-3824-1560</dd>
+                      <dd className="sm:col-span-2 text-gray-700">03-5524-1500</dd>
                     </div>
                     <div className="grid sm:grid-cols-3 gap-2">
                       <dt className="font-semibold text-gray-900">メールアドレス</dt>
-                      <dd className="sm:col-span-2 text-blue-600">qddqdd3316@gmail.com</dd>
+                      <dd className="sm:col-span-2 text-blue-600">gonzalesbettyuwxdc4870@gmail.com</dd>
                     </div>
                     <div className="grid sm:grid-cols-3 gap-2">
                       <dt className="font-semibold text-gray-900">受付時間</dt>

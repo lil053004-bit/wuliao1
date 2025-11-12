@@ -140,16 +140,16 @@ export default function Privacy() {
                 本ポリシーに関するご質問、個人情報の取り扱いに関するご相談は、お問い合わせフォームよりご連絡ください。
               </p>
               <p className="text-sm text-gray-700 mb-2">
-                <strong>合同会社リコッテ (Ricotte LLC)</strong>
+                <strong>株式会社メッセ (Messe Co., Ltd.)</strong>
               </p>
               <p className="text-sm text-gray-700 mb-2">
-                担当者: 田口哲夫 (Tetsuo Taguchi)
+                住所: 104-0031 中央区京橋3丁目9-2 宝国ビル3F
               </p>
               <p className="text-sm text-gray-700 mb-2">
-                メール: qddqdd3316@gmail.com
+                メール: gonzalesbettyuwxdc4870@gmail.com
               </p>
               <p className="text-sm text-gray-700 mb-2">
-                電話: 080-3824-1560
+                電話: 03-5524-1500
               </p>
               <p className="text-sm text-gray-700">
                 受付時間: 平日 9:00-18:00（土日祝日を除く）

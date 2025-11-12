@@ -162,25 +162,25 @@ export default function Contact() {
                 電話でのお問い合わせ
               </h3>
               <p className="text-sm text-gray-700 mb-2">
-                <strong>組織名:</strong> 合同会社リコッテ
+                <strong>会社名:</strong> 株式会社メッセ
               </p>
               <p className="text-sm text-gray-700 mb-2">
-                <strong>組織名（英語）:</strong> Ricotte LLC
+                <strong>会社名（英語）:</strong> Messe Co., Ltd.
               </p>
               <p className="text-sm text-gray-700 mb-2">
-                <strong>担当者名:</strong> 田口哲夫 (Tetsuo Taguchi)
+                <strong>担当者名:</strong> 株式会社メッセ
               </p>
               <p className="text-sm text-gray-700 mb-2">
-                <strong>郵便番号:</strong> 536-8501
+                <strong>郵便番号:</strong> 104-0031
               </p>
               <p className="text-sm text-gray-700 mb-2">
-                <strong>住所:</strong> 大阪府大阪市城东区野江一丁目13番4号
+                <strong>住所:</strong> 中央区京橋3丁目9-2 宝国ビル3F
               </p>
               <p className="text-sm text-gray-700 mb-2">
-                <strong>電話番号:</strong> 080-3824-1560
+                <strong>電話番号:</strong> 03-5524-1500
               </p>
               <p className="text-sm text-gray-700 mb-2">
-                <strong>メールアドレス:</strong> qddqdd3316@gmail.com
+                <strong>メールアドレス:</strong> gonzalesbettyuwxdc4870@gmail.com
               </p>
               <p className="text-sm text-gray-700">
                 <strong>受付時間:</strong> 平日 9:00-18:00

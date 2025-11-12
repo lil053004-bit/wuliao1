@@ -160,31 +160,31 @@ export default function About() {
                 <dl className="space-y-3">
                   <div className="flex flex-col sm:flex-row sm:items-start">
                     <dt className="font-semibold text-gray-900 w-32 flex-shrink-0">会社名</dt>
-                    <dd className="text-gray-700">株式会社AKYI</dd>
+                    <dd className="text-gray-700">株式会社メッセ</dd>
                   </div>
                   <div className="flex flex-col sm:flex-row sm:items-start">
                     <dt className="font-semibold text-gray-900 w-32 flex-shrink-0">会社名（英語）</dt>
-                    <dd className="text-gray-700">Kabushikigaisha AKYI</dd>
+                    <dd className="text-gray-700">Messe Co., Ltd.</dd>
                   </div>
                   <div className="flex flex-col sm:flex-row sm:items-start">
                     <dt className="font-semibold text-gray-900 w-32 flex-shrink-0">郵便番号</dt>
-                    <dd className="text-gray-700">100-0064</dd>
+                    <dd className="text-gray-700">104-0031</dd>
                   </div>
                   <div className="flex flex-col sm:flex-row sm:items-start">
                     <dt className="font-semibold text-gray-900 w-32 flex-shrink-0">住所</dt>
-                    <dd className="text-gray-700">東京都千代田区大手町5-7-1</dd>
+                    <dd className="text-gray-700">中央区京橋3丁目9-2 宝国ビル3F</dd>
                   </div>
                   <div className="flex flex-col sm:flex-row sm:items-start">
                     <dt className="font-semibold text-gray-900 w-32 flex-shrink-0">住所（英語）</dt>
-                    <dd className="text-gray-700">5-7-1 Otemachi, Chiyoda-ku, Tokyo</dd>
+                    <dd className="text-gray-700">3-9-2 Kyobashi, Chuo-ku, Tokyo 104-0031, Hokoku Building 3F</dd>
                   </div>
                   <div className="flex flex-col sm:flex-row sm:items-start">
                     <dt className="font-semibold text-gray-900 w-32 flex-shrink-0">電話番号</dt>
-                    <dd className="text-gray-700">+81 3-5555-1272</dd>
+                    <dd className="text-gray-700">03-5524-1500</dd>
                   </div>
                   <div className="flex flex-col sm:flex-row sm:items-start">
                     <dt className="font-semibold text-gray-900 w-32 flex-shrink-0">メールアドレス</dt>
-                    <dd className="text-gray-700">contact@financidsdgroup.jp</dd>
+                    <dd className="text-gray-700">gonzalezbettyuwxdc4870@gmail.com</dd>
                   </div>
                   <div className="flex flex-col sm:flex-row sm:items-start">
                     <dt className="font-semibold text-gray-900 w-32 flex-shrink-0">事業内容</dt>
