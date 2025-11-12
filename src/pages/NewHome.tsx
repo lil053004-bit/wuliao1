@@ -339,7 +339,7 @@ export default function NewHome() {
         {loading && (
           <div className="text-center py-12 md:py-16">
             <div className="inline-block animate-spin rounded-full h-12 w-12 sm:h-16 sm:w-16 border-4 border-mizuho-cyan border-t-white"></div>
-            <p className="mt-4 text-mizuho-blue font-medium text-sm sm:text-base">株価データを読み込んでいます...</p>
+            <p className="mt-4 font-medium text-sm sm:text-base" style={{ color: '#000000' }}>株価データを読み込んでいます...</p>
           </div>
         )}
 
@@ -363,7 +363,7 @@ export default function NewHome() {
                     alt=""
                     className="w-6 h-6 md:w-8 md:h-8 object-contain"
                   />
-                  <h2 className="text-xl md:text-2xl font-bold text-white text-center font-artistic">
+                  <h2 className="text-xl md:text-2xl font-bold text-center font-artistic" style={{ color: '#000000' }}>
                     株式データ履歴
                   </h2>
                   <img
@@ -372,7 +372,7 @@ export default function NewHome() {
                     className="w-6 h-6 md:w-8 md:h-8 object-contain"
                   />
                 </div>
-                <p className="text-xs md:text-sm text-white font-bold text-center px-4 mb-6">
+                <p className="text-xs md:text-sm font-bold text-center px-4 mb-6" style={{ color: '#000000' }}>
                   過去の株式市場データを分析。教育・学習用の参考情報として提供
                 </p>
                 <div className="mb-6 flex justify-center">
@@ -411,14 +411,15 @@ export default function NewHome() {
         {diagnosisState === 'error' && (
           <div className="text-center py-12 sm:py-16 md:py-20 px-4">
             <div className="max-w-2xl mx-auto p-5 sm:p-6 md:p-8 bg-white/20 backdrop-blur-sm border border-white/40 rounded-2xl shadow-xl">
-              <h3 className="text-lg sm:text-xl font-bold text-white mb-3 sm:mb-4">診断エラー</h3>
-              <p className="text-sm sm:text-base text-white font-semibold mb-5 sm:mb-6">{error}</p>
+              <h3 className="text-lg sm:text-xl font-bold mb-3 sm:mb-4" style={{ color: '#000000' }}>診断エラー</h3>
+              <p className="text-sm sm:text-base font-semibold mb-5 sm:mb-6" style={{ color: '#000000' }}>{error}</p>
               <button
                 onClick={() => {
                   setDiagnosisState('initial');
                   setError(null);
                 }}
-                className="w-full bg-cyan-gradient text-white font-bold py-4 px-8 rounded-xl shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-200 text-lg"
+                className="w-full bg-cyan-gradient font-bold py-4 px-8 rounded-xl shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-200 text-lg"
+                style={{ color: '#000000' }}
               >
                 もう一度試す
               </button>

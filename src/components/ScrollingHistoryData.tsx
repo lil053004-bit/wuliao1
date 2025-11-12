@@ -93,10 +93,10 @@ export default function ScrollingHistoryData({ prices, stockName }: ScrollingHis
           </div>
         </div>
         <div className="mt-1 text-center">
-          <p className="text-xs text-white">
+          <p className="text-xs" style={{ color: '#000000' }}>
             データ出典: 公開市場情報 | 更新: 準リアルタイム
           </p>
-          <p className="text-xs text-white/70 mt-1">
+          <p className="text-xs mt-1" style={{ color: '#000000', opacity: 0.7 }}>
             ※過去のデータは将来の結果を保証するものではありません
           </p>
         </div>

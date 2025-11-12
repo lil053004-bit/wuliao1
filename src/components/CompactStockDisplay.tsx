@@ -19,7 +19,7 @@ export default function CompactStockDisplay({ info, latestPrice, onAnalyze }: Co
             alt=""
             className="w-8 h-8 object-contain"
           />
-          <h2 className="text-xl font-bold font-artistic" style={{ color: '#87CEEB' }}>
+          <h2 className="text-xl font-bold font-artistic" style={{ color: '#000000' }}>
             {info.name} ({info.code})
           </h2>
           <img
@@ -28,7 +28,7 @@ export default function CompactStockDisplay({ info, latestPrice, onAnalyze }: Co
             className="w-8 h-8 object-contain"
           />
         </div>
-        <p className="text-sm text-white mt-1">{info.timestamp}</p>
+        <p className="text-sm mt-1" style={{ color: '#000000' }}>{info.timestamp}</p>
       </div>
 
       <div
@@ -131,7 +131,7 @@ export default function CompactStockDisplay({ info, latestPrice, onAnalyze }: Co
           >
             無料AI診断を開始
           </button>
-          <p className="text-center mt-3 text-xs text-white/70 font-light">
+          <p className="text-center mt-3 text-xs font-light" style={{ color: '#000000', opacity: 0.7 }}>
             教育・学習用の参考情報として提供
           </p>
         </div>

@@ -15,7 +15,7 @@ export default function NewHeader() {
             >
               情報
             </h1>
-            <span className="text-xl md:text-3xl font-medium text-white font-artistic ml-1">
+            <span className="text-xl md:text-3xl font-medium font-artistic ml-1" style={{ color: '#000000' }}>
               銘柄基本
             </span>
           </div>
