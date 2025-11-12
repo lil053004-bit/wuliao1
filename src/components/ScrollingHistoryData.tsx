@@ -34,19 +34,21 @@ export default function ScrollingHistoryData({ prices, stockName }: ScrollingHis
   return (
     <div className="px-4 py-3">
       <div className="max-w-lg mx-auto">
-        <div className="relative z-10 px-6 py-2 h-[330px] overflow-hidden">
+        <div
+          className="relative z-10 px-6 py-2 h-[330px] overflow-hidden rounded-lg"
+          style={{
+            backgroundImage: 'url(/images/stock.png)',
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+            backgroundRepeat: 'no-repeat'
+          }}
+        >
           <div className="animate-scroll-up">
             {infinitePrices.map((price, index) => {
               return (
                 <div
                   key={`${price.date}-${index}`}
-                  className="h-[110px] flex flex-col justify-center px-3 py-2 rounded-lg mb-2"
-                  style={{
-                    backgroundImage: 'url(/images/stock.png)',
-                    backgroundSize: '100% 100%',
-                    backgroundPosition: 'center',
-                    backgroundRepeat: 'no-repeat'
-                  }}
+                  className="h-[110px] flex flex-col justify-center px-3 py-2 mb-2"
                 >
                   <div className="text-center mb-1">
                     <div className="flex items-center justify-center gap-3 text-sm mb-1">
