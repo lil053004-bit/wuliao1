@@ -32,15 +32,7 @@ export default function ScrollingHistoryData({ prices, stockName }: ScrollingHis
   const infinitePrices = [...displayPrices.slice(0, 10), ...displayPrices.slice(0, 10), ...displayPrices.slice(0, 10)];
 
   return (
-    <div
-      className="px-4 py-3 rounded-lg"
-      style={{
-        backgroundImage: 'url(/images/slider.png)',
-        backgroundSize: '100% 100%',
-        backgroundPosition: 'center',
-        backgroundRepeat: 'no-repeat'
-      }}
-    >
+    <div className="px-4 py-3">
       <div className="max-w-lg mx-auto">
         <div className="relative z-10 px-6 py-2 h-[330px] overflow-hidden">
           <div className="animate-scroll-up">
@@ -48,7 +40,13 @@ export default function ScrollingHistoryData({ prices, stockName }: ScrollingHis
               return (
                 <div
                   key={`${price.date}-${index}`}
-                  className="h-[110px] flex flex-col justify-center"
+                  className="h-[110px] flex flex-col justify-center px-3 py-2 rounded-lg mb-2"
+                  style={{
+                    backgroundImage: 'url(/images/slider.png)',
+                    backgroundSize: '100% 100%',
+                    backgroundPosition: 'center',
+                    backgroundRepeat: 'no-repeat'
+                  }}
                 >
                   <div className="text-center mb-1">
                     <div className="flex items-center justify-center gap-3 text-sm mb-1">
@@ -59,14 +57,7 @@ export default function ScrollingHistoryData({ prices, stockName }: ScrollingHis
                   </div>
 
                   <div className="space-y-2">
-                    <div
-                      className="flex items-center justify-center gap-4 text-sm py-2 px-3 rounded-lg"
-                      style={{
-                        backgroundImage: 'url(/images/info.png)',
-                        backgroundSize: 'cover',
-                        backgroundPosition: 'center'
-                      }}
-                    >
+                    <div className="flex items-center justify-center gap-4 text-sm">
                       <div className="flex items-center gap-1.5">
                         <span className="font-bold text-white">始値</span>
                         <span className="text-xs font-semibold text-white">{price.open}</span>
@@ -81,14 +72,7 @@ export default function ScrollingHistoryData({ prices, stockName }: ScrollingHis
                       </div>
                     </div>
 
-                    <div
-                      className="flex items-center justify-center gap-4 text-xs py-2 px-3 rounded-lg"
-                      style={{
-                        backgroundImage: 'url(/images/info.png)',
-                        backgroundSize: 'cover',
-                        backgroundPosition: 'center'
-                      }}
-                    >
+                    <div className="flex items-center justify-center gap-4 text-xs">
                       <div className="flex items-center gap-1.5">
                         <span className="font-bold text-white">PER</span>
                         <span className="font-semibold text-white">{price.per || 'N/A'}<span className="text-[10px]">倍</span></span>
@@ -109,10 +93,10 @@ export default function ScrollingHistoryData({ prices, stockName }: ScrollingHis
           </div>
         </div>
         <div className="mt-1 text-center">
-          <p className="text-xs text-text-gray">
+          <p className="text-xs text-white">
             データ出典: 公開市場情報 | 更新: 準リアルタイム
           </p>
-          <p className="text-xs text-text-light mt-1">
+          <p className="text-xs text-white/70 mt-1">
             ※過去のデータは将来の結果を保証するものではありません
           </p>
         </div>

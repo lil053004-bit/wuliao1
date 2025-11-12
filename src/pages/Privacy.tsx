@@ -140,16 +140,16 @@ export default function Privacy() {
                 本ポリシーに関するご質問、個人情報の取り扱いに関するご相談は、お問い合わせフォームよりご連絡ください。
               </p>
               <p className="text-sm text-gray-700 mb-2">
-                <strong>rotkstock</strong>
+                <strong>合同会社リコッテ (Ricotte LLC)</strong>
               </p>
               <p className="text-sm text-gray-700 mb-2">
-                代表者: 岩瀬朗 (Akira Iwase)
+                担当者: 田口哲夫 (Tetsuo Taguchi)
               </p>
               <p className="text-sm text-gray-700 mb-2">
-                メール: support@rotkstock.jp
+                メール: qddqdd3316@gmail.com
               </p>
               <p className="text-sm text-gray-700 mb-2">
-                電話: 03-5211-2632
+                電話: 080-3824-1560
               </p>
               <p className="text-sm text-gray-700">
                 受付時間: 平日 9:00-18:00（土日祝日を除く）

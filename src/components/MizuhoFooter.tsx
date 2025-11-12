@@ -7,9 +7,9 @@ export default function MizuhoFooter() {
     <footer className="text-white py-12 md:py-16">
       <div className="max-w-7xl mx-auto px-4">
         <div className="text-center mb-10">
-          <h2 className="text-3xl md:text-4xl font-bold mb-2 font-artistic">rotkstock</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-2 font-artistic">tokyostocks</h2>
           <p className="text-sm md:text-base opacity-90 mb-6">
-            &copy; {currentYear} rotkstock. All rights reserved.
+            &copy; {currentYear} tokyostocks. All rights reserved.
           </p>
         </div>
 
