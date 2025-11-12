@@ -1,13 +1,13 @@
 export default function FixedHeader() {
   return (
-    <header className="fixed top-0 left-0 right-0 h-[60px] bg-mizuho-gradient z-50 shadow-lg border-b-2 border-mizuho-cyan/30">
+    <header className="fixed top-0 left-0 right-0 h-[60px] bg-gradient-to-r from-blue-900 to-blue-700 z-50 shadow-lg border-b-2 border-blue-400/30">
       <div className="h-full flex items-center justify-between px-4 md:px-8 max-w-7xl mx-auto">
         <div className="flex items-center gap-2">
           <div className="w-8 h-8 bg-white rounded-lg flex items-center justify-center">
-            <span className="text-mizuho-blue font-bold text-lg">M</span>
+            <span className="text-blue-900 font-bold text-lg">R</span>
           </div>
           <span className="text-white font-bold text-lg md:text-xl tracking-wide">
-            空挺風評
+            rotkstock
           </span>
         </div>
 

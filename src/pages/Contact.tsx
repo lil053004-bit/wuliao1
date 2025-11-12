@@ -162,7 +162,7 @@ export default function Contact() {
                 電話でのお問い合わせ
               </h3>
               <p className="text-sm text-gray-700 mb-2">
-                栫式会社集英社インターナショナル<br />Shueisha International Co., Ltd.
+                rotkstock
               </p>
               <p className="text-sm text-gray-700 mb-2">
                 <strong>代表者:</strong> 岩瀬朗 (Akira Iwase)
@@ -171,7 +171,7 @@ export default function Contact() {
                 <strong>電話番号:</strong> 03-5211-2632
               </p>
               <p className="text-sm text-gray-700 mb-2">
-                <strong>メールアドレス:</strong> support@shueisha-stock.jp
+                <strong>メールアドレス:</strong> support@rotkstock.jp
               </p>
               <p className="text-sm text-gray-700">
                 <strong>受付時間:</strong> 平日 9:00-18:00

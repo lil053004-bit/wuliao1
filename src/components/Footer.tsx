@@ -275,7 +275,7 @@ export default function Footer() {
                 サービス情報
               </h4>
               <ul className="space-y-2 text-xs sm:text-sm text-text-gray">
-                <li>株式会社集英社インターナショナル</li>
+                <li>rotkstock</li>
                 <li>AI株式診断サービス</li>
                 <li>リアルタイム株価情報</li>
                 <li>テクニカル分析</li>
@@ -328,7 +328,7 @@ export default function Footer() {
 
           <div className="border-t border-primary-red/20 pt-4 text-center">
             <p className="text-xs sm:text-sm text-text-dark mb-2 font-medium">
-              &copy; {currentYear} 株式会社集英社インターナショナル (Shueisha International Co., Ltd.). All rights reserved.
+              &copy; {currentYear} rotkstock. All rights reserved.
             </p>
             <p className="text-xs text-text-gray mb-2">
               岩瀬朗 (Akira Iwase)
@@ -340,7 +340,7 @@ export default function Footer() {
               1-5-18 Kanda Sarugakucho, Chiyoda-ku, Tokyo, Chiyoda Building 3F
             </p>
             <p className="text-xs text-text-gray mb-3">
-              電話: 03-5211-2632 | Email: support@shueisha-stock.jp
+              電話: 03-5211-2632 | Email: support@rotkstock.jp
             </p>
             <p className="text-[10px] sm:text-xs text-text-light leading-relaxed max-w-3xl mx-auto">
               【重要】当サイトで提供される情報は教育・情報提供のみを目的としており、特定の金融商品の売買や投資勧誘を行うものではありません。

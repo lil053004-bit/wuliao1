@@ -7,9 +7,9 @@ export default function MizuhoFooter() {
     <footer className="text-white py-12 md:py-16">
       <div className="max-w-7xl mx-auto px-4">
         <div className="text-center mb-10">
-          <h2 className="text-3xl md:text-4xl font-bold mb-2 font-artistic">MIZUHO</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-2 font-artistic">rotkstock</h2>
           <p className="text-sm md:text-base opacity-90 mb-6">
-            &copy; {currentYear} MIZUHO. All rights reserved.
+            &copy; {currentYear} rotkstock. All rights reserved.
           </p>
         </div>
 
@@ -20,22 +20,22 @@ export default function MizuhoFooter() {
             </h3>
             <ul className="space-y-2 text-sm">
               <li>
-                <Link to="/about" className="hover:text-mizuho-cyan transition-colors">
+                <Link to="/about" className="hover:text-blue-300 transition-colors">
                   お知的についで
                 </Link>
               </li>
               <li>
-                <Link to="/team" className="hover:text-mizuho-cyan transition-colors">
+                <Link to="/team" className="hover:text-blue-300 transition-colors">
                   チーム
                 </Link>
               </li>
               <li>
-                <Link to="/careers" className="hover:text-mizuho-cyan transition-colors">
+                <Link to="/careers" className="hover:text-blue-300 transition-colors">
                   採用情報
                 </Link>
               </li>
               <li>
-                <Link to="/press" className="hover:text-mizuho-cyan transition-colors">
+                <Link to="/press" className="hover:text-blue-300 transition-colors">
                   プレスリリース
                 </Link>
               </li>
@@ -48,42 +48,42 @@ export default function MizuhoFooter() {
             </h3>
             <ul className="space-y-2 text-sm">
               <li>
-                <Link to="/terms" className="hover:text-mizuho-cyan transition-colors">
+                <Link to="/terms" className="hover:text-blue-300 transition-colors">
                   利用規約
                 </Link>
               </li>
               <li>
-                <Link to="/privacy" className="hover:text-mizuho-cyan transition-colors">
+                <Link to="/privacy" className="hover:text-blue-300 transition-colors">
                   プライバシーポリシー
                 </Link>
               </li>
               <li>
-                <Link to="/specified-commercial-transaction-act" className="hover:text-mizuho-cyan transition-colors">
+                <Link to="/specified-commercial-transaction-act" className="hover:text-blue-300 transition-colors">
                   特定商取引法に基づく表記
                 </Link>
               </li>
               <li>
-                <Link to="/risk-disclosure" className="hover:text-mizuho-cyan transition-colors">
+                <Link to="/risk-disclosure" className="hover:text-blue-300 transition-colors">
                   リスク開示
                 </Link>
               </li>
               <li>
-                <Link to="/disclaimer" className="hover:text-mizuho-cyan transition-colors">
+                <Link to="/disclaimer" className="hover:text-blue-300 transition-colors">
                   免責事項
                 </Link>
               </li>
               <li>
-                <Link to="/faq" className="hover:text-mizuho-cyan transition-colors">
+                <Link to="/faq" className="hover:text-blue-300 transition-colors">
                   よくある質問
                 </Link>
               </li>
               <li>
-                <Link to="/contact" className="hover:text-mizuho-cyan transition-colors">
+                <Link to="/contact" className="hover:text-blue-300 transition-colors">
                   お問い合わせ
                 </Link>
               </li>
               <li>
-                <Link to="/support" className="hover:text-mizuho-cyan transition-colors">
+                <Link to="/support" className="hover:text-blue-300 transition-colors">
                   サポート
                 </Link>
               </li>

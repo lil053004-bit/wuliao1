@@ -1,16 +1,16 @@
-interface ShuseishaStockLogoProps {
+interface RotkstockLogoProps {
   className?: string;
   compact?: boolean;
 }
 
-export default function ShuseishaStockLogo({ className = "", compact = false }: ShuseishaStockLogoProps) {
+export default function RotkstockLogo({ className = "", compact = false }: RotkstockLogoProps) {
   if (compact) {
     return (
       <svg
         viewBox="0 0 180 60"
         className={className}
         xmlns="http://www.w3.org/2000/svg"
-        aria-label="集英社STOCK"
+        aria-label="rotkstock"
       >
         <defs>
           <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -26,25 +26,13 @@ export default function ShuseishaStockLogo({ className = "", compact = false }: 
         <text
           x="25"
           y="40"
-          fontFamily="'Noto Sans JP', 'Hiragino Kaku Gothic Pro', sans-serif"
-          fontSize="24"
+          fontFamily="'Roboto', 'Arial', sans-serif"
+          fontSize="28"
           fontWeight="900"
           fill="url(#logoGradient)"
           letterSpacing="1"
         >
-          集英社
-        </text>
-
-        <text
-          x="25"
-          y="55"
-          fontFamily="'Roboto', 'Arial', sans-serif"
-          fontSize="16"
-          fontWeight="800"
-          fill="#dc2626"
-          letterSpacing="2"
-        >
-          STOCK
+          rotkstock
         </text>
       </svg>
     );
@@ -55,7 +43,7 @@ export default function ShuseishaStockLogo({ className = "", compact = false }: 
       viewBox="0 0 320 80"
       className={className}
       xmlns="http://www.w3.org/2000/svg"
-      aria-label="集英社STOCK"
+      aria-label="rotkstock"
     >
       <defs>
         <linearGradient id="logoGradientFull" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -85,25 +73,13 @@ export default function ShuseishaStockLogo({ className = "", compact = false }: 
         <text
           x="55"
           y="52"
-          fontFamily="'Noto Sans JP', 'Hiragino Kaku Gothic Pro', 'Yu Gothic', sans-serif"
-          fontSize="36"
+          fontFamily="'Roboto', 'Arial', sans-serif"
+          fontSize="42"
           fontWeight="900"
           fill="url(#logoGradientFull)"
           letterSpacing="2"
         >
-          集英社
-        </text>
-
-        <text
-          x="200"
-          y="52"
-          fontFamily="'Roboto', 'Arial', sans-serif"
-          fontSize="32"
-          fontWeight="800"
-          fill="url(#accentGradient)"
-          letterSpacing="3"
-        >
-          STOCK
+          rotkstock
         </text>
       </g>
 

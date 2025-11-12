@@ -160,7 +160,7 @@ export default function About() {
                 <dl className="space-y-3">
                   <div className="flex flex-col sm:flex-row sm:items-start">
                     <dt className="font-semibold text-gray-900 w-32 flex-shrink-0">会社名</dt>
-                    <dd className="text-gray-700">株式会社集英社インターナショナル<br />Shueisha International Co., Ltd.</dd>
+                    <dd className="text-gray-700">rotkstock</dd>
                   </div>
                   <div className="flex flex-col sm:flex-row sm:items-start">
                     <dt className="font-semibold text-gray-900 w-32 flex-shrink-0">代表者</dt>
@@ -176,7 +176,7 @@ export default function About() {
                   </div>
                   <div className="flex flex-col sm:flex-row sm:items-start">
                     <dt className="font-semibold text-gray-900 w-32 flex-shrink-0">メールアドレス</dt>
-                    <dd className="text-gray-700">support@shueisha-stock.jp</dd>
+                    <dd className="text-gray-700">support@rotkstock.jp</dd>
                   </div>
                   <div className="flex flex-col sm:flex-row sm:items-start">
                     <dt className="font-semibold text-gray-900 w-32 flex-shrink-0">事業内容</dt>

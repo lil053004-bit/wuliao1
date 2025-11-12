@@ -35,7 +35,7 @@ export default function Privacy() {
             <section className="mb-8">
               <h2 className="text-xl font-bold text-gray-900 mb-4">2. 収集する情報</h2>
               <p className="text-gray-700 leading-relaxed mb-3">
-                当社は、当サービスの提供にあたり、以下の情報を収集する場合があります：
+                rotkstockは、当サービスの提供にあたり、以下の情報を収集する場合があります：
               </p>
               <ul className="list-disc list-inside text-gray-700 space-y-2 ml-4">
                 <li>アクセスログ情報（IPアドレス、ブラウザの種類、アクセス日時等）</li>
@@ -140,14 +140,13 @@ export default function Privacy() {
                 本ポリシーに関するご質問、個人情報の取り扱いに関するご相談は、お問い合わせフォームよりご連絡ください。
               </p>
               <p className="text-sm text-gray-700 mb-2">
-                <strong>栫式会社集英社インターナショナル</strong><br />
-                <strong>Shueisha International Co., Ltd.</strong>
+                <strong>rotkstock</strong>
               </p>
               <p className="text-sm text-gray-700 mb-2">
                 代表者: 岩瀬朗 (Akira Iwase)
               </p>
               <p className="text-sm text-gray-700 mb-2">
-                メール: support@shueisha-stock.jp
+                メール: support@rotkstock.jp
               </p>
               <p className="text-sm text-gray-700 mb-2">
                 電話: 03-5211-2632
