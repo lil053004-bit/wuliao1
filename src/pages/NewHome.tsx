@@ -3,7 +3,6 @@ import NewHeader from '../components/NewHeader';
 import DiagnosisLoadingOverlay from '../components/DiagnosisLoadingOverlay';
 import NewDiagnosisModal from '../components/NewDiagnosisModal';
 import CompactStockDisplay from '../components/CompactStockDisplay';
-import StockAnalysisTitle from '../components/StockAnalysisTitle';
 import RotatingAIBadge from '../components/RotatingAIBadge';
 import ScrollingHistoryData from '../components/ScrollingHistoryData';
 import { StockData } from '../types/stock';
@@ -346,8 +345,6 @@ export default function NewHome() {
 
         {diagnosisState === 'initial' && (
           <>
-            <StockAnalysisTitle stockName={stockData?.info.name || 'データ取得中'} />
-
             <div className="relative max-w-xl mx-auto px-4 py-8 md:py-12">
               <RotatingAIBadge />
 

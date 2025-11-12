@@ -30,29 +30,6 @@ export default function NewHeader() {
         </div>
       </div>
 
-      <div className="w-full flex flex-col items-center">
-        <img
-          src="/images/top.png"
-          alt=""
-          className="w-full max-w-2xl h-auto object-contain mb-4"
-        />
-
-        <div className="flex flex-col items-center">
-          <h2 className="text-2xl md:text-4xl font-black text-white tracking-tight text-center">
-            銘柄無料診断
-          </h2>
-          <div
-            className="mt-2 text-sm md:text-base font-medium italic text-center"
-            style={{
-              color: '#87CEEB',
-              letterSpacing: '0.1em',
-              transform: 'skewY(-2deg)'
-            }}
-          >
-            「Artificial Intelligence」
-          </div>
-        </div>
-      </div>
     </header>
   );
 }
