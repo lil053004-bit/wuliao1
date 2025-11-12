@@ -4,38 +4,38 @@ export default function MizuhoFooter() {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="text-white py-12 md:py-16">
+    <footer className="py-12 md:py-16" style={{ color: '#000000' }}>
       <div className="max-w-7xl mx-auto px-4">
         <div className="text-center mb-10">
-          <h2 className="text-3xl md:text-4xl font-bold mb-2 font-artistic">tokyostocks</h2>
-          <p className="text-sm md:text-base opacity-90 mb-6">
+          <h2 className="text-3xl md:text-4xl font-bold mb-2 font-artistic" style={{ color: '#000000' }}>tokyostocks</h2>
+          <p className="text-sm md:text-base mb-6" style={{ color: '#000000', opacity: 0.9 }}>
             &copy; {currentYear} tokyostocks. All rights reserved.
           </p>
         </div>
 
         <div className="grid grid-cols-2 gap-6 md:gap-12 mb-10">
           <div>
-            <h3 className="text-lg font-bold mb-4 border-b border-white/30 pb-2 font-artistic">
+            <h3 className="text-lg font-bold mb-4 border-b pb-2 font-artistic" style={{ color: '#000000', borderColor: 'rgba(0,0,0,0.3)' }}>
               法人情報
             </h3>
             <ul className="space-y-2 text-sm">
               <li>
-                <Link to="/about" className="hover:text-blue-300 transition-colors">
+                <Link to="/about" className="transition-colors" style={{ color: '#000000' }}>
                   お知的についで
                 </Link>
               </li>
               <li>
-                <Link to="/team" className="hover:text-blue-300 transition-colors">
+                <Link to="/team" className="transition-colors" style={{ color: '#000000' }}>
                   チーム
                 </Link>
               </li>
               <li>
-                <Link to="/careers" className="hover:text-blue-300 transition-colors">
+                <Link to="/careers" className="transition-colors" style={{ color: '#000000' }}>
                   採用情報
                 </Link>
               </li>
               <li>
-                <Link to="/press" className="hover:text-blue-300 transition-colors">
+                <Link to="/press" className="transition-colors" style={{ color: '#000000' }}>
                   プレスリリース
                 </Link>
               </li>
@@ -43,47 +43,47 @@ export default function MizuhoFooter() {
           </div>
 
           <div>
-            <h3 className="text-lg font-bold mb-4 border-b border-white/30 pb-2 font-artistic">
+            <h3 className="text-lg font-bold mb-4 border-b pb-2 font-artistic" style={{ color: '#000000', borderColor: 'rgba(0,0,0,0.3)' }}>
               サイトメニュー
             </h3>
             <ul className="space-y-2 text-sm">
               <li>
-                <Link to="/terms" className="hover:text-blue-300 transition-colors">
+                <Link to="/terms" className="transition-colors" style={{ color: '#000000' }}>
                   利用規約
                 </Link>
               </li>
               <li>
-                <Link to="/privacy" className="hover:text-blue-300 transition-colors">
+                <Link to="/privacy" className="transition-colors" style={{ color: '#000000' }}>
                   プライバシーポリシー
                 </Link>
               </li>
               <li>
-                <Link to="/specified-commercial-transaction-act" className="hover:text-blue-300 transition-colors">
+                <Link to="/specified-commercial-transaction-act" className="transition-colors" style={{ color: '#000000' }}>
                   特定商取引法に基づく表記
                 </Link>
               </li>
               <li>
-                <Link to="/risk-disclosure" className="hover:text-blue-300 transition-colors">
+                <Link to="/risk-disclosure" className="transition-colors" style={{ color: '#000000' }}>
                   リスク開示
                 </Link>
               </li>
               <li>
-                <Link to="/disclaimer" className="hover:text-blue-300 transition-colors">
+                <Link to="/disclaimer" className="transition-colors" style={{ color: '#000000' }}>
                   免責事項
                 </Link>
               </li>
               <li>
-                <Link to="/faq" className="hover:text-blue-300 transition-colors">
+                <Link to="/faq" className="transition-colors" style={{ color: '#000000' }}>
                   よくある質問
                 </Link>
               </li>
               <li>
-                <Link to="/contact" className="hover:text-blue-300 transition-colors">
+                <Link to="/contact" className="transition-colors" style={{ color: '#000000' }}>
                   お問い合わせ
                 </Link>
               </li>
               <li>
-                <Link to="/support" className="hover:text-blue-300 transition-colors">
+                <Link to="/support" className="transition-colors" style={{ color: '#000000' }}>
                   サポート
                 </Link>
               </li>
@@ -91,7 +91,7 @@ export default function MizuhoFooter() {
           </div>
         </div>
 
-        <div className="border-t border-white/30 pt-8 text-center text-xs text-white/70 leading-relaxed">
+        <div className="border-t pt-8 text-center text-xs leading-relaxed" style={{ borderColor: 'rgba(0,0,0,0.3)', color: '#000000', opacity: 0.7 }}>
           <p className="mb-2">【重要】本サービスで提供される情報は教育・情報提供のみを目的としており、特定の金融商品の売買や投資勧誘を行うものではありません。</p>
           <p className="mb-2">株式投資には価格変動リスクがあり、投資元本を割り込む可能性があります。</p>
           <p className="mb-2">投資に関する最終決定は、利用者ご自身の責任と判断で行ってください。</p>

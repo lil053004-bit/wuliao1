@@ -52,9 +52,9 @@ export default function ScrollingHistoryData({ prices, stockName }: ScrollingHis
                 >
                   <div className="text-center mb-1">
                     <div className="flex items-center justify-center gap-3 text-sm mb-1">
-                      <span className="font-semibold" style={{ color: '#FFD700' }}>{price.date}</span>
-                      <span style={{ color: '#FFD700' }}>•</span>
-                      <span className="text-xs font-semibold" style={{ color: '#FFD700' }}>{price.volume || 'N/A'}株</span>
+                      <span className="font-semibold" style={{ color: '#000000' }}>{price.date}</span>
+                      <span style={{ color: '#000000' }}>•</span>
+                      <span className="text-xs font-semibold" style={{ color: '#000000' }}>{price.volume || 'N/A'}株</span>
                     </div>
                   </div>
 
