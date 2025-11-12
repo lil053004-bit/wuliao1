@@ -25,12 +25,12 @@ export default function About() {
             <section className="mb-8">
               <h2 className="text-xl font-bold text-gray-900 mb-4">AI株式診断サービスについて</h2>
               <p className="text-gray-700 leading-relaxed mb-3">
-                AI株式診断サービスは、最新のAI技術を活用して株式市場の情報を分析し、
-                投資家の皆様に有益な情報を提供することを目的としたサービスです。
+                AI株式診断サービスは、実際のAI技術を使用して株式市場の情報を分析し、
+                無料で教育・学習用の参考情報を提供するサービスです。
               </p>
               <p className="text-gray-700 leading-relaxed">
-                私たちは、テクノロジーの力で投資情報の民主化を実現し、
-                より多くの方々が適切な情報に基づいて投資判断を行える環境を提供することを目指しています。
+                当サービスは金融商品の売買推奨や投資助言を一切行いません。
+                株式市場の理解と学習を目的とした情報提供のみを行います。
               </p>
             </section>
 
@@ -41,11 +41,11 @@ export default function About() {
               </div>
               <div className="bg-pale-green rounded-lg p-6">
                 <p className="text-gray-800 font-semibold mb-3">
-                  「AI技術で投資情報をもっと身近に、もっと分かりやすく」
+                  「実際AIを使用した無料の教育・学習用情報提供」
                 </p>
                 <p className="text-gray-700 leading-relaxed">
-                  私たちは、複雑な株式市場の情報をAI技術により分かりやすく分析し、
-                  投資家の皆様がより良い投資判断を行えるよう支援することを使命としています。
+                  私たちは、複雑な株式市場の情報を実際のAI技術で分析し、
+                  利用者の皆様が株式市場を学ぶための参考情報を無料で提供することを使命としています。
                 </p>
               </div>
             </section>
@@ -159,38 +159,38 @@ export default function About() {
               <div className="bg-gray-50 rounded-lg p-6">
                 <dl className="space-y-3">
                   <div className="flex flex-col sm:flex-row sm:items-start">
-                    <dt className="font-semibold text-gray-900 w-32 flex-shrink-0">組織名</dt>
-                    <dd className="text-gray-700">合同会社リコッテ</dd>
+                    <dt className="font-semibold text-gray-900 w-32 flex-shrink-0">会社名</dt>
+                    <dd className="text-gray-700">株式会社AKYI</dd>
                   </div>
                   <div className="flex flex-col sm:flex-row sm:items-start">
-                    <dt className="font-semibold text-gray-900 w-32 flex-shrink-0">組織名（英語）</dt>
-                    <dd className="text-gray-700">Ricotte LLC</dd>
-                  </div>
-                  <div className="flex flex-col sm:flex-row sm:items-start">
-                    <dt className="font-semibold text-gray-900 w-32 flex-shrink-0">担当者名</dt>
-                    <dd className="text-gray-700">田口哲夫 (Tetsuo Taguchi)</dd>
+                    <dt className="font-semibold text-gray-900 w-32 flex-shrink-0">会社名（英語）</dt>
+                    <dd className="text-gray-700">Kabushikigaisha AKYI</dd>
                   </div>
                   <div className="flex flex-col sm:flex-row sm:items-start">
                     <dt className="font-semibold text-gray-900 w-32 flex-shrink-0">郵便番号</dt>
-                    <dd className="text-gray-700">536-8501</dd>
+                    <dd className="text-gray-700">100-0064</dd>
                   </div>
                   <div className="flex flex-col sm:flex-row sm:items-start">
                     <dt className="font-semibold text-gray-900 w-32 flex-shrink-0">住所</dt>
-                    <dd className="text-gray-700">大阪府大阪市城东区野江一丁目13番4号</dd>
+                    <dd className="text-gray-700">東京都千代田区大手町5-7-1</dd>
+                  </div>
+                  <div className="flex flex-col sm:flex-row sm:items-start">
+                    <dt className="font-semibold text-gray-900 w-32 flex-shrink-0">住所（英語）</dt>
+                    <dd className="text-gray-700">5-7-1 Otemachi, Chiyoda-ku, Tokyo</dd>
                   </div>
                   <div className="flex flex-col sm:flex-row sm:items-start">
                     <dt className="font-semibold text-gray-900 w-32 flex-shrink-0">電話番号</dt>
-                    <dd className="text-gray-700">080-3824-1560</dd>
+                    <dd className="text-gray-700">+81 3-5555-1272</dd>
                   </div>
                   <div className="flex flex-col sm:flex-row sm:items-start">
                     <dt className="font-semibold text-gray-900 w-32 flex-shrink-0">メールアドレス</dt>
-                    <dd className="text-gray-700">qddqdd3316@gmail.com</dd>
+                    <dd className="text-gray-700">contact@financidsdgroup.jp</dd>
                   </div>
                   <div className="flex flex-col sm:flex-row sm:items-start">
                     <dt className="font-semibold text-gray-900 w-32 flex-shrink-0">事業内容</dt>
                     <dd className="text-gray-700">
                       株式市場情報の分析および提供<br />
-                      AI技術を活用した投資情報サービスの開発・運営
+                      AI技術を活用した教育・学習用情報サービスの開発・運営
                     </dd>
                   </div>
                 </dl>
@@ -202,9 +202,9 @@ export default function About() {
               <div className="bg-amber-50 border-l-4 border-amber-500 p-4">
                 <p className="text-amber-900 font-semibold mb-2">金融商品取引業者ではありません</p>
                 <p className="text-gray-700 leading-relaxed text-sm">
-                  当サービスは、金融商品取引法第29条の登録を受けた金融商品取引業者ではありません。
-                  投資助言業務、投資一任業務、金融商品仲介業務は行いません。
-                  当サービスが提供する情報は、あくまで参考情報としてご活用ください。
+                  当サービスは無料のAI診断ツールであり、金融商品取引法第29条の登録を受けた金融商品取引業者ではありません。
+                  投資助言業務、投資一任業務、金融商品仲介業務、金融商品の売買推奨を一切行いません。
+                  提供される情報は、実際のAI処理による教育・学習用の参考情報です。
                 </p>
               </div>
             </section>

@@ -27,15 +27,15 @@ export default function Disclaimer() {
             <div className="bg-red-50 border-l-4 border-red-500 p-4 mb-8">
               <p className="text-red-900 font-bold mb-2">重要な注意事項</p>
               <p className="text-red-800 leading-relaxed">
-                当サービスは情報提供のみを目的としており、投資助言や投資勧誘を行うものではありません。
-                投資判断はご自身の責任において行ってください。
+                当サービスは無料のAI診断ツールであり、教育・学習用の参考情報のみを提供します。金融商品の売買推奨、投資助言、投資勧誘を一切行いません。
+                投資判断は必ずご自身の責任において行ってください。
               </p>
             </div>
 
             <section className="mb-8">
               <h2 className="text-xl font-bold text-gray-900 mb-4">1. サービスの性質について</h2>
               <p className="text-gray-700 leading-relaxed mb-3">
-                AI株式診断サービス（以下「当サービス」）は、AI技術を活用した株式情報の提供および分析ツールです。
+                AI株式診断サービス（以下「当サービス」）は、実際のAI技術を使用した無料の株式情報分析ツールで、教育・学習用の参考情報を提供します。
               </p>
               <p className="text-gray-700 leading-relaxed mb-3">
                 当サービスは以下の業務には該当しません：
@@ -55,12 +55,12 @@ export default function Disclaimer() {
             <section className="mb-8">
               <h2 className="text-xl font-bold text-gray-900 mb-4">2. 情報の正確性について</h2>
               <p className="text-gray-700 leading-relaxed mb-3">
-                当サービスで提供される情報は、信頼できると判断した情報源から取得していますが、
+                当サービスで提供される情報は、公開市場情報から取得していますが、
                 その正確性、完全性、適時性、有用性について、いかなる保証も行いません。
               </p>
               <p className="text-gray-700 leading-relaxed mb-3">
-                AI分析結果は、過去のデータおよび統計的手法に基づくものであり、将来の投資成果を保証するものではありません。
-                市場環境の変化により、分析結果と実際の結果が大きく異なる可能性があります。
+                実際のAI処理による分析結果は、教育・学習用の参考情報であり、投資助言や推奨ではありません。
+                過去のデータに基づく分析であり、将来の投資成果を保証するものではありません。
               </p>
               <p className="text-gray-700 leading-relaxed">
                 株価データ、財務データ等の情報は、データ提供元の都合により遅延、中断、または誤りが含まれる可能性があります。
@@ -90,10 +90,10 @@ export default function Disclaimer() {
             <section className="mb-8">
               <h2 className="text-xl font-bold text-gray-900 mb-4">4. 投資判断の責任</h2>
               <p className="text-gray-700 leading-relaxed mb-3">
-                当サービスが提供する情報は、あくまでも参考情報として提供されるものです。
+                当サービスが提供する情報は、無料の教育・学習用参考情報としてのみ提供されるものです。
               </p>
               <p className="text-red-700 font-bold leading-relaxed mb-3">
-                最終的な投資判断は、利用者ご自身の責任において行ってください。
+                最終的な投資判断は、必ずご自身の責任で行ってください。
               </p>
               <p className="text-gray-700 leading-relaxed">
                 当サービスの利用により生じた損害（直接損害、間接損害、特別損害、付随的損害、結果的損害を含むがこれらに限られない）について、

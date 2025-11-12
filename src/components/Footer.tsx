@@ -261,7 +261,7 @@ export default function Footer() {
                 </li>
                 <li className="flex items-center gap-1 text-text-dark">
                   <Phone className="w-3 h-3" />
-                  <span>03-5211-2632</span>
+                  <span>+81 3-5555-1272</span>
                 </li>
                 <li className="text-text-gray text-xs">
                   受付時間: 平日 9:00-18:00
@@ -331,23 +331,23 @@ export default function Footer() {
               &copy; {currentYear} rotkstock. All rights reserved.
             </p>
             <p className="text-xs text-text-gray mb-2">
-              岩瀬朗 (Akira Iwase)
+              株式会社AKYI (Kabushikigaisha AKYI)
             </p>
             <p className="text-xs text-text-gray mb-2">
-              101-0064 東京都千代田区神田猿楽町1-5-18 千代田ビル3F
+              100-0064 東京都千代田区大手町5-7-1
             </p>
             <p className="text-xs text-text-gray mb-2">
-              1-5-18 Kanda Sarugakucho, Chiyoda-ku, Tokyo, Chiyoda Building 3F
+              5-7-1 Otemachi, Chiyoda-ku, Tokyo
             </p>
             <p className="text-xs text-text-gray mb-3">
-              電話: 03-5211-2632 | Email: support@rotkstock.jp
+              電話: +81 3-5555-1272 | Email: contact@financidsdgroup.jp
             </p>
             <p className="text-[10px] sm:text-xs text-text-light leading-relaxed max-w-3xl mx-auto">
-              【重要】当サイトで提供される情報は教育・情報提供のみを目的としており、特定の金融商品の売買や投資勧誘を行うものではありません。
+              【重要】当サービスは無料のAI診断ツールであり、教育・学習用の参考情報のみを提供します。金融商品の売買推奨や投資助言を一切行いません。
+              提供される情報は実際のAI処理による分析結果ですが、投資判断の参考情報に過ぎず、将来の投資成果を保証するものではありません。
               株式投資には価格変動リスクがあり、投資元本を割り込む可能性があります。
-              投資に関する最終決定は、利用者ご自身の責任と判断で行ってください。
-              当サービス提供者は金融商品取引業者ではなく、個別の投資助言を行うことはできません。
-              投資を行う際は、必ず金融商品取引業者または専門家にご相談ください。
+              最終的な投資判断は、必ずご自身の責任で行ってください。
+              当サービスは金融商品取引業者ではなく、個別の投資助言・推奨を行うことはできません。
             </p>
           </div>
         </div>

@@ -42,7 +42,7 @@ export default function ScrollingHistoryData({ prices, stockName }: ScrollingHis
                   key={`${price.date}-${index}`}
                   className="h-[110px] flex flex-col justify-center px-3 py-2 rounded-lg mb-2"
                   style={{
-                    backgroundImage: 'url(/images/slider.png)',
+                    backgroundImage: 'url(/images/stock.png)',
                     backgroundSize: '100% 100%',
                     backgroundPosition: 'center',
                     backgroundRepeat: 'no-repeat'

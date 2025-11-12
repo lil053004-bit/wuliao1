@@ -103,7 +103,7 @@ export default function NewDiagnosisModal({
         <div className="relative overflow-y-auto max-h-[calc(90vh-100px)] px-3 py-2 sm:px-4 sm:py-3 space-y-2 bg-gradient-to-br from-blue-50 to-cyan-50">
 
           <p className="text-[10px] sm:text-xs text-center text-gray-600 mb-2">
-            データ: 公開市場情報 | 参考資料（投資助言ではありません）
+            無料AI診断 | 教育・学習用参考情報（投資助言・推奨ではありません）
           </p>
 
           <div className="relative bg-white/80 backdrop-blur-xl rounded-lg p-3 sm:p-4 border-2 border-mizuho-cyan/30 overflow-hidden shadow-xl">
@@ -169,7 +169,7 @@ export default function NewDiagnosisModal({
 
                   <div className="mt-2 p-2 bg-gradient-to-r from-mizuho-blue/20 to-mizuho-cyan/20 rounded-lg border border-mizuho-cyan/30">
                     <p className="text-[10px] sm:text-xs text-mizuho-blue leading-relaxed">
-                      LINE登録で参考情報として市場分析レポートをお届け※投資助言ではありません
+                      LINE登録で教育・学習用の参考情報をお届け※投資助言・推奨ではありません
                     </p>
                   </div>
                 </>

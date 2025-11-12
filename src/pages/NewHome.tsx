@@ -376,28 +376,23 @@ export default function NewHome() {
                   />
                 </div>
                 <p className="text-xs md:text-sm text-white font-bold text-center px-4 mb-6">
-                  過去の株式市場データを分析し、投資判断の参考にご活用ください
+                  過去の株式市場データを分析。教育・学習用の参考情報として提供
                 </p>
                 <div className="mb-6 flex justify-center">
-                  <div className="relative inline-block">
-                    <div
-                      className="absolute inset-0 rounded-xl translate-y-1.5"
-                      style={{
-                        background: 'linear-gradient(135deg, rgba(255, 200, 87, 0.6) 0%, rgba(255, 180, 70, 0.6) 100%)',
-                        zIndex: 0
-                      }}
-                    ></div>
-                    <button
-                      onClick={runDiagnosis}
-                      className="relative font-bold py-3 px-10 rounded-xl text-white transition-all duration-200 hover:translate-y-0.5 active:translate-y-1"
-                      style={{
-                        background: 'linear-gradient(135deg, #FFD700 0%, #FFA500 50%, #FFD700 100%)',
-                        zIndex: 1
-                      }}
-                    >
-                      今すぐ診断する
-                    </button>
-                  </div>
+                  <button
+                    onClick={runDiagnosis}
+                    className="font-bold py-3 px-10 rounded-xl transition-all duration-200 hover:opacity-90 active:scale-95"
+                    style={{
+                      backgroundImage: 'url(/images/button.png)',
+                      backgroundSize: '100% 100%',
+                      backgroundPosition: 'center',
+                      backgroundRepeat: 'no-repeat',
+                      color: '#000000',
+                      border: 'none'
+                    }}
+                  >
+                    今すぐ無料診断
+                  </button>
                 </div>
                 <div className="w-full">
                   <ScrollingHistoryData

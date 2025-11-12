@@ -117,27 +117,22 @@ export default function CompactStockDisplay({ info, latestPrice, onAnalyze }: Co
         </div>
 
         <div className="mt-6">
-          <div className="relative inline-block w-full">
-            <div
-              className="absolute inset-0 rounded-xl translate-y-1.5"
-              style={{
-                background: 'linear-gradient(135deg, rgba(255, 200, 87, 0.6) 0%, rgba(255, 180, 70, 0.6) 100%)',
-                zIndex: 0
-              }}
-            ></div>
-            <button
-              onClick={onAnalyze}
-              className="relative w-full font-bold py-3 px-6 rounded-xl text-white transition-all duration-200 hover:translate-y-0.5 active:translate-y-1"
-              style={{
-                background: 'linear-gradient(135deg, #FFD700 0%, #FFA500 50%, #FFD700 100%)',
-                zIndex: 1
-              }}
-            >
-              今すぐ分析する
-            </button>
-          </div>
+          <button
+            onClick={onAnalyze}
+            className="w-full font-bold py-3 px-6 rounded-xl transition-all duration-200 hover:opacity-90 active:scale-95"
+            style={{
+              backgroundImage: 'url(/images/button.png)',
+              backgroundSize: '100% 100%',
+              backgroundPosition: 'center',
+              backgroundRepeat: 'no-repeat',
+              color: '#000000',
+              border: 'none'
+            }}
+          >
+            無料AI診断を開始
+          </button>
           <p className="text-center mt-3 text-xs text-white/70 font-light">
-            データのセキュリティは厳重に保護されています
+            教育・学習用の参考情報として提供
           </p>
         </div>
       </div>
