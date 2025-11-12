@@ -445,6 +445,7 @@ export default function NewHome() {
           isStreaming={diagnosisState === 'streaming'}
           isConnecting={diagnosisState === 'connecting'}
           onLineConversion={handleLineConversion}
+          gclid={urlParams.gclid}
         />
       </div>
     </div>

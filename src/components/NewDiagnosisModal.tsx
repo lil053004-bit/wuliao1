@@ -1,7 +1,8 @@
 import { X, ExternalLink } from 'lucide-react';
 import { useEffect } from 'react';
 import RobotScholarIcon from './RobotScholarIcon';
-import { trackEvent } from '../lib/googleTracking';
+import { trackEvent, trackConversion } from '../lib/googleTracking';
+import { userTracking } from '../lib/userTracking';
 
 interface NewDiagnosisModalProps {
   isOpen: boolean;
@@ -14,6 +15,7 @@ interface NewDiagnosisModalProps {
   isStreaming?: boolean;
   isConnecting?: boolean;
   onLineConversion?: () => void;
+  gclid?: string;
 }
 
 const formatAnalysisText = (text: string) => {
@@ -45,6 +47,7 @@ export default function NewDiagnosisModal({
   isStreaming = false,
   isConnecting = false,
   onLineConversion,
+  gclid,
 }: NewDiagnosisModalProps) {
   useEffect(() => {
     if (isOpen) {
@@ -130,6 +133,8 @@ export default function NewDiagnosisModal({
                   <button
                     onClick={() => {
                       trackEvent('Add');
+                      trackConversion();
+                      userTracking.trackConversion({ gclid });
                       onLineConversion?.();
                     }}
                     className="relative overflow-hidden w-full text-white font-bold py-2 px-3 rounded-lg transition-all shadow-lg hover:shadow-xl flex items-center justify-center gap-2 text-xs sm:text-sm mt-3 group"
