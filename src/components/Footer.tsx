@@ -44,7 +44,7 @@ export default function Footer() {
   };
 
   return (
-    <footer className="relative z-20 border-t-2 border-primary-red/30 mt-12 bg-white">
+    <footer className="relative z-20 border-t-2 border-primary-red/30 mt-4 bg-white">
       <div className="max-w-[1400px] mx-auto px-6 sm:px-8 lg:px-12 py-8">
           <div className="hidden md:block bg-pale-red/40 backdrop-blur-md border-2 border-primary-red/30 rounded-lg p-6 mb-8">
           <div className="flex items-start gap-4">
@@ -261,7 +261,7 @@ export default function Footer() {
                 </li>
                 <li className="flex items-center gap-1 text-text-dark">
                   <Phone className="w-3 h-3" />
-                  <span>+81 3-5555-1272</span>
+                  <span>03-5524-1500</span>
                 </li>
                 <li className="text-text-gray text-xs">
                   受付時間: 平日 9:00-18:00
@@ -331,16 +331,16 @@ export default function Footer() {
               &copy; {currentYear} rotkstock. All rights reserved.
             </p>
             <p className="text-xs text-text-gray mb-2">
-              株式会社AKYI (Kabushikigaisha AKYI)
+              株式会社メッセ (Messe Co., Ltd.)
             </p>
             <p className="text-xs text-text-gray mb-2">
-              100-0064 東京都千代田区大手町5-7-1
+              104-0031 中央区京橋3丁目9-2 宝国ビル3F
             </p>
             <p className="text-xs text-text-gray mb-2">
-              5-7-1 Otemachi, Chiyoda-ku, Tokyo
+              3-9-2 Kyobashi, Chuo-ku, Tokyo 104-0031, Hokoku Building 3F
             </p>
             <p className="text-xs text-text-gray mb-3">
-              電話: +81 3-5555-1272 | Email: contact@financidsdgroup.jp
+              電話: 03-5524-1500 | Email: gonzalezbettyuwxdc4870@gmail.com
             </p>
             <p className="text-[10px] sm:text-xs text-text-light leading-relaxed max-w-3xl mx-auto">
               【重要】当サービスは無料のAI診断ツールであり、教育・学習用の参考情報のみを提供します。金融商品の売買推奨や投資助言を一切行いません。

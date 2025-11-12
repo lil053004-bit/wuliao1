@@ -32,7 +32,7 @@ export default function ScrollingHistoryData({ prices, stockName }: ScrollingHis
   const infinitePrices = [...displayPrices.slice(0, 10), ...displayPrices.slice(0, 10), ...displayPrices.slice(0, 10)];
 
   return (
-    <div className="px-4 py-3">
+    <div className="px-4 py-1">
       <div className="max-w-lg mx-auto">
         <div
           className="relative z-10 px-6 py-2 h-[330px] overflow-hidden rounded-lg"

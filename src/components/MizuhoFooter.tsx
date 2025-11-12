@@ -4,7 +4,7 @@ export default function MizuhoFooter() {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="py-12 md:py-16" style={{ color: '#000000' }}>
+    <footer className="py-4 md:py-6 mt-2" style={{ color: '#000000' }}>
       <div className="max-w-7xl mx-auto px-4">
         <div className="text-center mb-10">
           <h2 className="text-3xl md:text-4xl font-bold mb-2 font-artistic" style={{ color: '#000000' }}>tokyostocks</h2>

@@ -1,7 +1,7 @@
 export default function NewHeader() {
   return (
-    <header className="w-full py-6 px-4 md:px-8 mt-4 md:mt-6">
-      <div className="max-w-7xl mx-auto flex items-center justify-between mb-6">
+    <header className="w-full py-2 px-4 md:px-8 mt-2 md:mt-3">
+      <div className="max-w-7xl mx-auto flex items-center justify-between mb-2">
         <div className="flex items-baseline gap-1">
           <h1
             className="text-5xl md:text-7xl font-black tracking-tight font-artistic"
