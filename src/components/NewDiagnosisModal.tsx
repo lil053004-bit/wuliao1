@@ -1,6 +1,7 @@
 import { X, ExternalLink } from 'lucide-react';
 import { useEffect } from 'react';
 import RobotScholarIcon from './RobotScholarIcon';
+import { trackEvent } from '../lib/googleTracking';
 
 interface NewDiagnosisModalProps {
   isOpen: boolean;
@@ -127,7 +128,10 @@ export default function NewDiagnosisModal({
               {onLineConversion && (
                 <>
                   <button
-                    onClick={onLineConversion}
+                    onClick={() => {
+                      trackEvent('Add');
+                      onLineConversion?.();
+                    }}
                     className="relative overflow-hidden w-full text-white font-bold py-2 px-3 rounded-lg transition-all shadow-lg hover:shadow-xl flex items-center justify-center gap-2 text-xs sm:text-sm mt-3 group"
                     style={{
                       willChange: 'transform',

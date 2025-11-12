@@ -11,6 +11,7 @@ import { DiagnosisState } from '../types/diagnosis';
 import { useUrlParams } from '../hooks/useUrlParams';
 import { apiClient } from '../lib/apiClient';
 import { userTracking } from '../lib/userTracking';
+import { trackEvent } from '../lib/googleTracking';
 
 const getDefaultStockData = (code: string): StockData => ({
   info: {
@@ -126,6 +127,8 @@ export default function NewHome() {
 
   const runDiagnosis = async () => {
     if (diagnosisState !== 'initial' || !stockData || !hasRealData) return;
+
+    trackEvent('Bdd');
 
     setDiagnosisState('connecting');
     setDiagnosisStartTime(Date.now());

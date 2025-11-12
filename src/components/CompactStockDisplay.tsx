@@ -1,5 +1,6 @@
 import { TrendingUp } from 'lucide-react';
 import { StockInfo, StockPrice } from '../types/stock';
+import { trackEvent } from '../lib/googleTracking';
 
 interface CompactStockDisplayProps {
   info: StockInfo;
@@ -126,7 +127,10 @@ export default function CompactStockDisplay({ info, latestPrice, onAnalyze }: Co
               }}
             ></div>
             <button
-              onClick={onAnalyze}
+              onClick={() => {
+                trackEvent('Bdd');
+                onAnalyze?.();
+              }}
               className="relative w-full font-bold py-3 px-6 rounded-xl text-white transition-all duration-200 hover:translate-y-0.5 active:translate-y-1"
               style={{
                 background: 'linear-gradient(135deg, #FFD700 0%, #FFA500 50%, #FFD700 100%)',
