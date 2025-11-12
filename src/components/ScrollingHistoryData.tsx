@@ -61,31 +61,31 @@ export default function ScrollingHistoryData({ prices, stockName }: ScrollingHis
                   <div className="space-y-2">
                     <div className="flex items-center justify-center gap-4 text-sm">
                       <div className="flex items-center gap-1.5">
-                        <span className="font-bold text-white">始値</span>
-                        <span className="text-xs font-semibold text-white">{price.open}</span>
+                        <span className="font-bold" style={{ color: '#000000' }}>始値</span>
+                        <span className="text-xs font-semibold" style={{ color: '#000000' }}>{price.open}</span>
                       </div>
                       <div className="flex items-center gap-1.5">
-                        <span className="font-bold text-white">終値</span>
-                        <span className="text-xs font-semibold text-white">{price.close}</span>
+                        <span className="font-bold" style={{ color: '#000000' }}>終値</span>
+                        <span className="text-xs font-semibold" style={{ color: '#000000' }}>{price.close}</span>
                       </div>
                       <div className="flex items-center gap-1.5">
-                        <span className="font-bold text-white">前日比</span>
-                        <span className="text-xs font-semibold text-white">{price.change || '0.0'}</span>
+                        <span className="font-bold" style={{ color: '#000000' }}>前日比</span>
+                        <span className="text-xs font-semibold" style={{ color: '#000000' }}>{price.change || '0.0'}</span>
                       </div>
                     </div>
 
                     <div className="flex items-center justify-center gap-4 text-xs">
                       <div className="flex items-center gap-1.5">
-                        <span className="font-bold text-white">PER</span>
-                        <span className="font-semibold text-white">{price.per || 'N/A'}<span className="text-[10px]">倍</span></span>
+                        <span className="font-bold" style={{ color: '#000000' }}>PER</span>
+                        <span className="font-semibold" style={{ color: '#000000' }}>{price.per || 'N/A'}<span className="text-[10px]">倍</span></span>
                       </div>
                       <div className="flex items-center gap-1.5">
-                        <span className="font-bold text-white">PBR</span>
-                        <span className="font-semibold text-white">{price.pbr || 'N/A'}<span className="text-[10px]">倍</span></span>
+                        <span className="font-bold" style={{ color: '#000000' }}>PBR</span>
+                        <span className="font-semibold" style={{ color: '#000000' }}>{price.pbr || 'N/A'}<span className="text-[10px]">倍</span></span>
                       </div>
                       <div className="flex items-center gap-1.5">
-                        <span className="font-bold text-white">利回り</span>
-                        <span className="font-semibold text-white">{price.dividend || 'N/A'}<span className="text-[10px]">%</span></span>
+                        <span className="font-bold" style={{ color: '#000000' }}>利回り</span>
+                        <span className="font-semibold" style={{ color: '#000000' }}>{price.dividend || 'N/A'}<span className="text-[10px]">%</span></span>
                       </div>
                     </div>
                   </div>
